@@ -1,0 +1,180 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+  
+}
+.navbar{
+  height: 80px;
+  margin: 0 auto 50 auto;
+}
+.navbar a{
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff !important;
+}
+.navbar a:hover a:focus{
+  color: blue;
+  border-top: : solid 2px red !important;
+}
+
+.navbar a:link {
+  color: green;
+}
+
+
+.mon-header{
+  /*background-color: rgba(95,20,230,0.6) !important;*/
+  background-image: url(images/accueil.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+}
+
+.descrption{
+  text-align: center;
+  margin: auto;
+  color: #060606;
+ padding: 100px auto;
+  font-weight: bold;
+  background-color: #ddd;
+  opacity: 0.7;
+
+}
+.descrption h2{
+  font-size: 30px;
+  padding-top: 50px;
+  color: red;
+  font-style: italic;
+}
+.descrption p{
+  font-size: 20px;
+  font-style: italic;
+  padding-bottom: 60px;
+}
+  
+#apropos{
+    text-align: center;
+
+
+
+}
+#apropos i{
+  color: rgb(52, 152, 219);
+}
+.divider {
+ background: #3498db;
+border: none;
+height: 2px;
+width: 20%;
+}
+
+#service{
+ color: #fff;
+  text-align: center;
+}
+.devi{
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+#carousel {
+max-width: 650px;
+height: auto;
+margin: 0px auto !important;
+}
+.carousel .item {
+      height: 255px;
+    }
+
+
+.carousel-inner img {
+width: 200px;
+height: 200px;
+}
+
+#contact
+{
+  text-align: center;
+  margin-top: 78px;
+  background-color: blue;
+  color: #fff;
+  size: 150px;
+}
+#contact i {
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+   
+}
+
+#contact .logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#contact .container{
+   text-align: center;
+   margin-top: 80px;
+
+}
+#contact .container a{
+  text-align: center;
+  margin-top: 100px;
+}
+
+
+
+.page-footer{
+  color: white;
+  background-color: grey;
+}
+
+button{
+  margin-top: 5px;
+  border-radius: 25px;
+
+}
+button:hover, button:focus
+{
+    color: #fff;
+    background-color: #c13c0d;
+}
+
+footer{
+  color: #fff;
+  color: white;
+  background-color: #000;
+  font-size: 15px;
+  text-decoration: none;
+  margin-top: 25px;
+  padding: 30px 15px 50px 50px ; 
+}
+footer a {
+  text-decoration: none !important;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+
+}
+a{
+  text-decoration: none;
+ 
+}
+/*TRAITEMENT FORMULAIRE D'INSCRIPTION*/
+.forms{
+  width: 100%;
+  height: 100%;
+  margin: 5px auto !important;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  color: #000;
+}
